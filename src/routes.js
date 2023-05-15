@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/header/header.js"
+import Footer from "./components/footer/footer.js"
 
 import Home from "./pages/home/home.js"
 import Projetos from "./pages/projects/projetos.js";
@@ -15,6 +16,7 @@ export default function Rotas() {
           <Route path="/projetos" element={<Projetos />}/>
           <Route path="/contato" element={<Contato />}/>
         </Routes>
+        <Footer />
       </BrowserRouter>
     );
   }

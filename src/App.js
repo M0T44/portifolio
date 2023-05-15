@@ -1,4 +1,5 @@
 import Rotas from './routes'
+import "./css/style.app.css"
 
 function App() {
   return (

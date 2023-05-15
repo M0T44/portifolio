@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import { Collapse, Button } from "reactstrap"
 import React from 'react'
 import '../../css/style.header.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Logo from "../../img/logo.png"
-import GitHub from "../../img/github.png"
-import Linkedin from "../../img/linkedin.png"
+import Logo from "../../img/header-footer/logo.png"
+import GitHub from "../../img/header-footer/github.png"
+import Linkedin from "../../img/header-footer/linkedin.png"
 
 export default function Header() {
 
@@ -49,11 +50,11 @@ export default function Header() {
                         </div>
 
                         <div className="contato">
-                            <a href="https://github.com/M0T44">
+                            <a href="https://github.com/M0T44" target="blanck">
                                 <img src={GitHub} alt="" width={"40px"} />
                             </a>
 
-                            <a href="">
+                            <a href="https://www.linkedin.com/in/gabriel-mota-moreto-4b5046250/" target="blanck">
                                 <img src={Linkedin} alt="" width={"40px"} />
                             </a>
                         </div>
