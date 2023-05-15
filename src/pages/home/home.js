@@ -2,6 +2,9 @@ import '../../css/style.home.css'
 
 import HTML5 from "../../img/home/html5.png"
 import CSS3 from "../../img/home/css-3.png"
+import JS from "../../img/home/script-java.png"
+import React from "../../img/home/react.png"
+import EmBreve from "../../img//home/em-breve.png"
 
 export default function Home() {
     return (
@@ -29,27 +32,49 @@ export default function Home() {
 
                 <div className='habilidades'>
                     <div className='habilidade1'>
-                            <h5 className='h5'>
-                                habilidades:
-                            </h5>
+                        <h5 className='h5'>
+                            habilidades:
+                        </h5>
                         <div className='habilidade2'>
-                            
+
                             <div className='opacidade'>
                                 <img src={HTML5} alt={HTML5} width={'50px'} />
                                 <p>HTML5</p>
-                                <p className='carregamento'>99,9%</p>
+                                <div className='carregamento'>
+                                    <p className='carregamento99'>99,9%</p>
+                                </div>
                             </div>
 
                             <div className='opacidade'>
                                 <img src={CSS3} alt={CSS3} width={'50px'} />
                                 <p>CSS3</p>
-                                <p className='carregamento'>99,9%</p>
+                                <div className='carregamento'>
+                                    <p className='carregamento99'>99,9%</p>
+                                </div>
                             </div>
 
                             <div className='opacidade'>
-                                <img src={CSS3} alt={CSS3} width={'50px'} />
-                                <p>CSS3</p>
-                                <p className='carregamento'>99,9%</p>
+                                <img src={JS} alt={JS} width={'50px'} />
+                                <p>JavaScript</p>
+                                <div className='carregamento'>
+                                    <p className='carregamento30'>30%</p>
+                                </div>
+                            </div>
+
+                            <div className='opacidade'>
+                                <img src={React} alt={React} width={'58px'} />
+                                <p>React</p>
+                                <div className='carregamento'>
+                                    <p className='carregamento50'>50%</p>
+                                </div>
+                            </div>
+
+                            <div className='opacidade'>
+                                <img src={EmBreve} alt="" width={'120px'}/>
+                                <p>Estudando...</p>
+                                <div className='carregamento'>
+                                    <p className='carregamento0'>0%</p>
+                                </div>
                             </div>
                         </div>
                     </div>
