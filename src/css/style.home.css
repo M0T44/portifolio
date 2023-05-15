@@ -13,6 +13,7 @@
     width: 25%;
     background-color: #92908d;
     box-shadow: 7px 7px 7px #6a6765;
+    border-radius: 15px;
 }
 
 .sobreMim {
@@ -21,7 +22,7 @@
     padding: 24px;
     background-color: #92908d;
     box-shadow: 7px 7px 7px #6a6765;
-
+    border-radius: 15px;
 }
 
 .habilidades {
@@ -38,14 +39,20 @@
     text-align: center;
     background-color: #92908d;
     box-shadow: 7px 7px 7px #6a6765;
+    border-radius: 15px;
+}
+
+.habilidade2 {
+    flex-wrap: wrap;
 }
 
 .opacidade{
-    width: 150px;
+    width: 140px;
     background-color: #bbb8b5;
     padding: 14px;
-    margin: 0px 20px;
+    margin: 20px 20px;
     opacity: 70%;
+    border-radius: 15px;
 }
 
 .opacidade:hover {
@@ -58,6 +65,7 @@
 .carregamento {
     width: 100%;
     background-color: #92908d;
+    border-radius: 10px;
 }
 
 .carregamento0 {
@@ -65,6 +73,7 @@
     height: 25px;
     color: white;
     background-color: green;
+    border-radius: 10px;
     animation: progress-animation0 3s forwards;
 }
 
@@ -73,6 +82,7 @@
     height: 25px;
     color: white;
     background-color: green;
+    border-radius: 10px;
     animation: progress-animation30 3s normal;
 }
 
@@ -81,7 +91,17 @@
     height: 25px;
     color: white;
     background-color: green;
+    border-radius: 10px;
     animation: progress-animation50 3s normal;
+}
+
+.carregamento80 {
+    width: 80%;
+    height: 25px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    animation: progress-animation80 3s normal;
 }
 
 .carregamento99 {
@@ -89,6 +109,7 @@
     height: 25px;
     color: white;
     background-color: green;
+    border-radius: 10px;
     animation: progress-animation99 3s normal;
 }
 
@@ -108,6 +129,12 @@
     0% { width: 0%; }
     
     30% { width: 50%}
+}
+
+@keyframes progress-animation80 {
+    0% { width: 0%; }
+    
+    80% { width: 80%}
 }
 
 @keyframes progress-animation99 {
@@ -175,12 +202,16 @@
 
     .habilidade1 {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 
     .habilidade2 {
         display: flex;
+        align-items: center;
         flex-direction: column;
+        text-align: center;
+        justify-content: center;
     }
 
     .opacidade {

@@ -14,16 +14,49 @@
 
 .projetoLeft {
     text-align: center;
+    flex-direction: column;
     width: 50%;
     background-color: #92908d;
-    margin: 50px 25px;
-    padding: 25px 0px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .projetoRight {
     text-align: center;
+    flex-direction: column;
     width: 50%;
     background-color: #92908d;
-    margin: 50px 25px;
-    padding: 25px 0px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.projetos img {
+    height: 300px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .projetos {
+        width: 90%;
+        display: flex;
+        margin-top: 150px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .projetoLeft {
+        width: 85%;
+    }
+
+    .projetoRight {
+        width: 85%;
+    }
+
+    .projetos img {
+        height: 250px;
+    }
 }

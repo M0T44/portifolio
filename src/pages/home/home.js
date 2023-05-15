@@ -49,7 +49,7 @@ export default function Home() {
                                 <img src={CSS3} alt={CSS3} width={'50px'} />
                                 <p>CSS3</p>
                                 <div className='carregamento'>
-                                    <p className='carregamento99'>99,9%</p>
+                                    <p className='carregamento80'>80%</p>
                                 </div>
                             </div>
 
@@ -76,6 +76,15 @@ export default function Home() {
                                     <p className='carregamento0'>0%</p>
                                 </div>
                             </div>
+
+                            <div className='opacidade'>
+                                <img src={EmBreve} alt="" width={'120px'}/>
+                                <p>Estudando...</p>
+                                <div className='carregamento'>
+                                    <p className='carregamento0'>0%</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

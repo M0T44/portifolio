@@ -10,18 +10,33 @@ export default function Projetos() {
                 <div className="paginaProjects">
                     <div className="projetos">
                         <div className="projetoLeft">
-                            <h5>Universo da Personalização</h5>
-                            <img src={UP} alt={UP} width={"500px"} />
+                            <div className="mt-3 mb-3">
+                                <h5>Universo da Personalização</h5>
+                                <img src={UP} alt={UP} width={"600px"} className="img-fluid" />
+                            </div>
+                            
+                            <hr/>
+
+                            <div className="mt-3 mb-3">
+                                <h5>Em Breve</h5>
+                                <img src={EmBreve} alt={EmBreve} width={"600px"} className="img-fluid" />
+                            </div>
                         </div>
 
                         <div className="projetoRight">
-                            <h5>Em Breve</h5>
-                            <img src={EmBreve} alt={EmBreve} width={"500px"} />
-                        </div>
+                            <div className="mt-3 mb-3">
+                                <h5>Criando...</h5>
+                                <img src={EmBreve} alt={EmBreve} width={"600px"} className="img-fluid" />
+                            </div>
 
-                        
+                            <hr/>
+
+                            <div className="mt-3 mb-3">
+                                <h5>Em Breve</h5>
+                                <img src={EmBreve} alt={EmBreve} width={"600px"} className="img-fluid" />
+                            </div>
+                        </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
