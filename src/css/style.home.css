@@ -1,5 +1,4 @@
 .home {
-    margin-top: 50px;
     background-color: #bbb8b5;
     display: flex;
     justify-content: space-around;
@@ -53,6 +52,8 @@
     margin: 20px 20px;
     opacity: 70%;
     border-radius: 15px;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(0.93);
 }
 
 .opacidade:hover {

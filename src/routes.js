@@ -9,7 +9,7 @@ import Contato from "./pages/contato/contato.js";
 
 export default function Rotas() {
     return (
-      <BrowserRouter basename="/build/">
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />}/>
